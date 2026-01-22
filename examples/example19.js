@@ -22,10 +22,10 @@ const person =  [
     
 ];
 
-const names = person.map((arr, i) =>{
-    return arr.map(p => p.name);
-});
-console.log(names);
+// const names = person.map((arr, i) =>{  this will give two arry in sinle array;
+//     return arr.map(p => p.name);
+// });
+// console.log(names);
 
 
 // person.flatMap((arr, i) => {
