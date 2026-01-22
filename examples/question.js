@@ -1,6 +1,6 @@
-let userRole = "Admin";
-let isAuthenticated = false;
-let userAge = 15;
+let userRole = prompt("enter the user role");
+let isAuthenticated = prompt("enter the user athenticity");
+let userAge = prompt("enter the user age");
 if(!isAuthenticated){
     console.log("Please Log in.");
 }
