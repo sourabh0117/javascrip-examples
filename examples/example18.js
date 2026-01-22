@@ -9,11 +9,11 @@ const person =  [
     },
 ];
 
-const names = person.map((p, i) => {
+const names = person.map((p, i) => {//iterate through all the object in array return new array
     return i + ". "+p.name;
 });
 
-console.log(names);
+console.log(names); 
 
 
 
