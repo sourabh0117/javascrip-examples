@@ -7,7 +7,7 @@ const person =  [
         name: "pluto",
         age: 3,
     },
-]
+];
 //person.forEach(p => console.log(p));
 
 const v = function abc (p){ // fundction store in v we can directly use v as funtion name
