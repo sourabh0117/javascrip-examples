@@ -7,4 +7,4 @@ console.log(x);
 
 const y = 10;
 console.log(y);
-y = 20;
+//y = 20;
