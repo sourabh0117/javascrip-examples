@@ -31,3 +31,9 @@ const person =  [
 // person.flatMap((arr, i) => {
 //     return  arr.map(p => p.name);
 // }).forEach(n => console.log(n));
+
+
+const names = person.map((p, i) =>{
+    return i + ". "+p.age;
+}).forEach(n => console.log(n));
+console.log(names.toString());
